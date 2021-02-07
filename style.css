@@ -11,12 +11,21 @@ h1{
     
 }
 
+h2{
+    margin-top: 5vh;
+}
+img{
+    margin-bottom: 5vh;
+    
+}
+
 .box{
     position: relative;
     background-color: rgb(255, 165, 250);
     border-radius: 20px;
     text-align: center;
     min-height: inherit;
+    margin-bottom: 10vh;
 }
 
 .box img{
@@ -24,11 +33,12 @@ h1{
 }
 
 .box img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: all 0.5s ease;
 }
 
 .rosequote{
+    padding-top: 5vh;
     margin: 2vh;
     min-width: 30vh;
     font-size: 1.2em;
