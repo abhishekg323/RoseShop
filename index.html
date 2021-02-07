@@ -21,24 +21,29 @@
       </div>
       <h2>Red Rose</h2>
       <img src="img/red.png" alt="Red Rose" width="30%" /><br>
-      <button>Buy</button>
+      <button onclick="popup(0)">Buy</button>
       <hr>
       <h2>Yellow Rose</h2>
-      <img src="img/yellow.png" alt="Red Rose" width="33%" /><br>
-      <button>Buy</button>
+      <img src="img/yellow.png" alt="Yellow Rose" width="33%" /><br>
+      <button onclick="popup(1)">Buy</button>
       <hr>
       <h2>White Rose</h2>
-      <img src="img/white.png" alt="Red Rose" width="33%" /><br>
-      <button>Buy</button>
+      <img src="img/white.png" alt="White Rose" width="33%" /><br>
+      <button onclick="popup(2)">Buy</button>
       <hr>
       <h2>Pink Rose</h2>
-      <img src="img/pink.png" alt="Red Rose" width="33%" /><br>
-      <button>Buy</button>
+      <img src="img/pink.png" alt="Pink Rose" width="33%" /><br>
+      <button onclick="popup(3)">Buy</button>
       <hr>
       <h2>Orange Rose</h2>
-      <img src="img/orange.png" alt="Red Rose" width="40%" /><br>
-      <button>Buy</button>
+      <img src="img/orange.png" alt="Orange Rose" width="40%" /><br>
+      <button onclick="popup(4)">Buy</button>
     </div>
-    <div></div>
+    <script>
+      function popup(i){
+        let a=["Red Rose","Yellow Rose","White Rose","Pink Rose","Orange Rose"];
+        alert("Thank You Purchasing "+a[i]);
+      }
+    </script>
   </body>
 </html>
