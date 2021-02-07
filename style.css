@@ -1,0 +1,43 @@
+body{
+    position: relative;
+    background-color: rgb(245 40 255);
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.box{
+    position: relative;
+    background-color: rgb(255, 165, 250);
+    border-radius: 20px;
+    text-align: center;
+    min-height: inherit;
+}
+
+.box img{
+    transition: all 0.5s ease;
+}
+
+.box img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.rosequote{
+    margin: 2vh;
+    min-width: 30vh;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+hr{
+    border-top: 1px solid pink;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
