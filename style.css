@@ -51,3 +51,14 @@ hr{
     margin-left: 5vh;
     margin-right: 5vh;
 }
+
+button{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0,0.2);
+    background-color: pink;
+    width: 5em;
+    font-size: 1.5em;
+    margin-bottom: 5vh;
+    color: rgb(187, 0, 162);
+}
